@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import AuthWidget from './AuthWidget'
 
 export default function Header(){
   return (
@@ -16,6 +17,7 @@ export default function Header(){
         <Link href="/create">Create</Link>
         <Link href="/fixers">Fixers</Link>
         <Link href="/recycle">Recycle</Link>
+        <AuthWidget />
       </nav>
     </header>
   )
