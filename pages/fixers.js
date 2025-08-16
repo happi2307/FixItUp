@@ -12,7 +12,7 @@ export default function Fixers({ fixers }) {
             <p>Categories: {f.categories.join(', ')}</p>
             <p>Badge: {f.badge}</p>
             <p>Available: {f.available ? 'Yes' : 'No'}</p>
-            <button>Message / Bid</button>
+            <button className="btn">Message / Bid</button>
           </div>
         ))}
       </div>
